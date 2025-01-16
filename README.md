@@ -6,6 +6,8 @@ Giuseppe Shepherd learned how to make the perfect pizza as a child from his nonn
 
 ## Project Description
 
+Only employees will use this system, so think of them as the only users.
+
 ### Orders
 
 Giuseppe's (Joe, to his friends) restaurant has a dining room and delivery service available, and an order can either be placed for a particular table number or for delivery. Each order at the restaurant can have multiple pizzas on it.
@@ -57,33 +59,13 @@ Joe provided us with a draft menu to help build our data model:
 
 **Delivery surcharge: $5.00/order**
 
----
-
-## Application Requirements
-
-Only employees will use this system, so think of them as the only users. They need to be able to:
-
-1. Create an order (there are lots of design questions here - should the user be able to add pizzas on this view, or only after the order has been created?)
-1. View all orders (should be filtered by day, with today being the default when first viewing the list), ordered by order datetime (newest first).
-1. View an order's details (including a list of pizzas, with the total cost for each item, and the total cost for the order).
-1. Update an order
-   - Add a pizza to an order ( linked from order details view)
-   - Remove a pizza from an order
-1. Update a pizza that is on an order
-   - change cheese or sauce type, or size
-   - add and remove toppings
-1. Cancel an order (delete from the system)
-1. View Employees - admin users should be able to view a list of employees
-1. Update Employees - an admin use should be able to view and update an employee's details (the restaurant needs to keep an employee's address, phone number, and email on file for notifications)
-1. An admin should be able to assign an employee to deliver an order.
-1. Sales report - An admin should be able to view the orders for a specific month, and get the total sales amount for that month
-1. Sales report - Additionally, the sales report should show the most popular items - display the most popular size, cheese, sauce, and the top three toppings for that month.
-
 ## Project Planning
 
 You will not be able to complete this project efficiently without proper planning ahead of time.
 
-1. Create an ERD for the system. The description above and the requirements should be enough information to create a good data model for this application
-1. Create wireframes of the different views that the UI will need in order to fulfill requirements. These can be very simple, but make sure you have an idea of how the user is going to access each view, and how any forms will need to look to allow the user to input data.
-1. Use the project requirements to create user stories. Make issues on Github once you have a repo, and add those issues to a Github project.
-1. Once you have started coding, create a new branch for each feature you work on. Open a pull request and have two teammates review your code before merging the code into the main branch.
+1. One teammate should [clone and create the **develop** branch](https://nashville-software-school.github.io/github-workflow/START_REMOTE.html)
+1. Create an ERD for the system. Read **all** of the issue tickets to ensure that the entire team has the required context for the database structure.
+2. Create wireframes of the different views that the UI will need in order to fulfill requirements. These can be very simple, but make sure you have an idea of how the user is going to access each view, and how any forms will need to look to allow the user to input data.
+3. Review the [Github Workflow Guide](https://nashville-software-school.github.io/github-workflow/PROJECTS.html) to create a project board and all of the issues in your repository to the **Backlog** column.
+4. Once you have started coding, create a new branch for each feature you work on while following industry standard [branch naming conventions](https://nashville-software-school.github.io/github-workflow/BRANCH_NAMING.html).
+5. When you feel ready, [create a pull request](https://nashville-software-school.github.io/github-workflow/PR_CREATE.html) and have two teammates review your code before merging the code into the `develop` branch.
