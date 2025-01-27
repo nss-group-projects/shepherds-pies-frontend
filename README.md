@@ -40,9 +40,11 @@ Joe provided us with a draft menu to help build our data model:
 
 Cheese choice does not modify the cost of a pizza.
 
+- Mozzarella
 - Buffalo Mozzarella
 - Four Cheese
 - Vegan
+- Ricotta
 - None (cheeseless)
 
 ### Choose a Sauce Option
@@ -52,20 +54,21 @@ Sauce choice does not modify the cost of a pizza.
 - Marinara
 - Arrabbiata
 - Garlic White
+- Diavolo
 - None (sauceless pizza)
 
 ### Toppings
 
 The cost of toppings range from $0.50 and $1.00. The team can randomly assign a cost to each as it sees fit. Feel free to add any other toppings that you think would be fun on a pizza.
 
-- sausage
-- pepperoni
-- mushroom
-- onion
-- green pepper
-- black olive
-- basil
-- extra cheese
+- Sausage
+- Pepperoni
+- Mushroom
+- Onion
+- Green pepper
+- Black olive
+- Basil
+- Extra cheese
 
 **Delivery surcharge: $5.00/order**
 
