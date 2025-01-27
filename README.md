@@ -28,11 +28,17 @@ Joe provided us with a draft menu to help build our data model:
 
 ### Pizzas
 
-- small (10") - $10.00
-- medium (14") - $12.00
-- large (18") - $15.00
+| Name | Size _(in inches)_ | Base cost |
+|---|---|---|
+| Kids | 8 | $6.00 |
+| Small | 10 | $10.00 |
+| Medium | 14 | $12.50 | 
+| Large | 16 | $15.00 | 
+| X Large | 18 | $18.00 |
 
 ### Choose a Cheese Option
+
+Cheese choice does not modify the cost of a pizza.
 
 - Buffalo Mozzarella
 - Four Cheese
@@ -41,12 +47,16 @@ Joe provided us with a draft menu to help build our data model:
 
 ### Choose a Sauce Option
 
+Sauce choice does not modify the cost of a pizza.
+
 - Marinara
 - Arrabbiata
 - Garlic White
 - None (sauceless pizza)
 
-### Toppings ($0.50 each)
+### Toppings
+
+The cost of toppings range from $0.50 and $1.00. The team can randomly assign a cost to each as it sees fit. Feel free to add any other toppings that you think would be fun on a pizza.
 
 - sausage
 - pepperoni
