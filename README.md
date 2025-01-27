@@ -6,7 +6,7 @@ Giuseppe Shepherd learned how to make the perfect pizza as a child from his nonn
 
 ## Project Description
 
-Only employees will use this system, so think of them as the only users.
+Only employees will use this system, so think of them as the only users regardless of what role they are taking while interacting with it.
 
 ### Orders
 
